@@ -17,4 +17,20 @@ fun main() {
     for (i in 10 downTo 0 step 2){
         println("Number is :$i")
     }
+
+
+    // loop array
+    var arr = ArrayList<Int>(0)
+    arr.add(1)
+    arr.add(2)
+    arr.add(3)
+    arr.add(4)
+    arr.add(5)
+    arr.add(6)
+
+    for (i in arr){
+        print("${i}, ")
+    }
+
+
 }
